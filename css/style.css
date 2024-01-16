@@ -45,12 +45,43 @@ main .section-principal h1 {
 main .section-principal h1 span {
   color: yellow;
 }
+main .section-principal p {
+  text-align: center;
+  color: yellow;
+  margin-bottom: 55px;
+}
 
 @media (min-width: 420px) {
   body {
     background-color: red;
   }
 }
+main .mixins {
+  margin-top: 68px;
+  background-color: green;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+main .mixins .parrafo-1 {
+  font-size: 18px;
+  font-family: Arial;
+  font-weight: bold;
+  color: yellow;
+}
+main .mixins .parrafo-2 {
+  font-size: 38px;
+  font-family: Arial;
+  font-weight: 200;
+  color: blue;
+}
+main .mixins .parrafo-3 {
+  font-size: 87px;
+  font-family: Helvetica;
+  font-weight: 100;
+  color: red;
+}
+
 * {
   margin: 0%;
   padding: 0%;
@@ -59,6 +90,25 @@ main .section-principal h1 span {
 
 body {
   background-color: #1A1A1A;
+}
+
+/* 
+
+Comentario multilinea
+
+*/
+.boton, .boton-2 {
+  background-color: red;
+  text-decoration: none;
+  padding: 15px;
+  margin: 55px 25px;
+}
+
+.boton-principal {
+  background-color: yellow;
+  padding: 25px;
+  text-decoration: none;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 /*# sourceMappingURL=style.css.map */

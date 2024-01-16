@@ -1,18 +1,33 @@
+// LAS VARIABLES SIEMPRE VAN ARRIBA DE TODO.
+$color-principal: yellow;
+$color-texto: blue;
+$color-white: white;
+$color-fondo: red;
+
 main{
 
     .section-principal{
 
         h1{
-            color: white;
+            
+            // VARIABLE LOCAL
+
+            $variable-local: blue;
+
+            color: $color-white;
             font-size: 2.5rem;
             margin-top: 25px;
             font-family: Arial, Helvetica, sans-serif;
             text-align: center;
             span{
-                color: yellow;
+                color: $color-principal;
             }
         }
 
-       
+       p{ 
+           text-align: center;
+           color: $color-principal;
+           margin-bottom: 55px;
+       }
     }
 }

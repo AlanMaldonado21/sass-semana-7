@@ -3,4 +3,11 @@
 @import "layout/section-principal";
 @import "layout/media-420";
 @import "layout/media-768";
+@import "layout/section-mixins";
 @import "base/reset.scss";
+
+// Utilities
+@import "utilities/extend";
+
+// Components
+@import "components/botones";

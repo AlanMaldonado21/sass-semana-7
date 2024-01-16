@@ -1,0 +1,34 @@
+@mixin fuente-parrafos($size, $family, $grosor, $color){
+    font-size: $size;
+    font-family: $family;
+    font-weight: $grosor;
+    color: $color;
+}
+
+
+@mixin flex($flex, $justify, $align-items){
+    display: $flex;
+    justify-content: $justify;
+    align-items: $align-items;
+}
+
+main{
+    .mixins{
+        margin-top: 68px;
+        background-color: green;
+
+        @include flex( flex, space-around , center);
+
+        .parrafo-1{
+            @include fuente-parrafos( 18px , Arial , bold , yellow )
+        }
+
+        .parrafo-2{
+            @include fuente-parrafos( 38px, Arial , 200 , blue)
+        }
+
+        .parrafo-3{
+            @include fuente-parrafos( 87px, Helvetica , 100  , red);
+        }
+    }
+}

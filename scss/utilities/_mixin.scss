@@ -1,0 +1,19 @@
+// Mixin es un conjunto de estilos agrupados que puedo utilizar en diferntes partes de la hoja de estilos
+
+// @mixin nombreMixin(){
+//     propieades
+// }
+
+
+@mixin fuente-parrafos($size, $family, $grosor, $color){
+    font-size: $size;
+    font-family: $family;
+    font-weight: $grosor;
+    color: $color;
+}
+
+@mixin flex($flex, $justify, $align-items){
+    display: $flex;
+    justify-content: $justify;
+    align-items: $align-items;
+}
