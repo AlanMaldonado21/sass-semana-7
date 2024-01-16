@@ -1,0 +1,40 @@
+header{
+    display: flex;
+    border-bottom: 1px solid gray;
+    justify-content: space-between;
+    padding: 15px;
+
+    &:hover{
+        background-color: red;
+    }
+
+    img{
+        // background-color: red;
+    }
+
+    nav{
+        ul{
+            list-style-type: none;
+            display: flex;
+            li{
+                a{
+                    text-decoration: none;
+                    color: white;
+                    font-family: Arial, Helvetica, sans-serif;
+                    margin: 10px;
+                }
+                .enlace-amarillo{
+                    color: yellow;
+
+                    &:hover{
+                        color: green;
+                    }
+                }
+
+                #enlace-violeta{
+                    color: violet;
+                }
+            }
+        }
+    }
+} 
